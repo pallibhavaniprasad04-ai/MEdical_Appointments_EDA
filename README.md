@@ -3,14 +3,14 @@
 
 A data-driven exploration of patient appointment behavior
 
-📖 Project Overview
+# 📖 Project Overview
 
 This project analyzes a real-world healthcare dataset containing 110K+ patient appointment records to understand why patients miss their medical appointments.
 Through extensive Exploratory Data Analysis (EDA), I uncovered trends related to gender, weekdays, waiting time, and patient behavior that influence the likelihood of a patient showing up ("Yes") or missing ("No") their appointment.
 
 The project focuses on cleaning messy date columns, engineering time-based features, detecting outliers, and generating meaningful business insights for healthcare scheduling optimization.
 
-🎯 Objectives
+# 🎯 Objectives
 
 Clean and preprocess healthcare appointment data
 
@@ -22,7 +22,7 @@ Identify patterns in No-Show vs Show appointments
 
 Generate insights to help reduce no-show rates in hospitals
 
-🧹 Data Cleaning & Feature Engineering
+# 🧹 Data Cleaning & Feature Engineering
 
 Key steps performed:
 
@@ -38,7 +38,7 @@ Standardized categorical and numerical features
 
 Verified distributions and detected outliers in Age, WaitingTime, etc.
 
-🔍 Exploratory Data Analysis (EDA)
+# 🔍 Exploratory Data Analysis (EDA)
 Key Questions Explored:
 
 Do males or females attend appointments more?
@@ -51,7 +51,7 @@ Are certain patient conditions (like diabetes or hypertension) related to attend
 
 What patterns exist in overall no-show behavior?
 
-📊 Key Insights
+# 📊 Key Insights
 
 Female patients attended more appointments compared to males.
 
@@ -65,7 +65,7 @@ Age distribution showed that younger patients skipped appointments more frequent
 
 Data quality issues were resolved through timezone correction, date parsing, and removing unnecessary columns.
 
-📈 Visualizations
+# 📈 Visualizations
 
 The notebook includes plots for:
 
@@ -85,7 +85,7 @@ Boxplots for categorical vs numerical analysis
 
 (All created using Pandas, Matplotlib, Seaborn)
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 Python
 
